@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Information</title>
+</head>
+<body>
+    <h3><strong>Contact Information</strong></h3>
+    <ul> <!--UL means Unordered List, is used to create lists-->
+    <li><a href="https://www.instagram.com/f_va06/?hl=es-la"> Instagram</a></li><!--li means List Items and is used to declare an object in the list, can be named as Bullet List-->
+    <li><a href="https://www.facebook.com/fernando.valeriodelvalle/">Facebook</a></li>
+    <li><a href="https://github.com/fva062001">Github</a></li>
+    <li>fernandoarturo06@gmail.com</li>
+    <li>849-206-7057</li>
+    </ul> 
+    <hr size="2" noshade>
+    <form action="mailto:fernandoarturo06@gmail.com" method"post" enctype="text/plain" ><!--form is used to create forms, action is used to set the action that the form will do, method is used to set what are we going to do with the form information and enctype is used dto set the encoding type, in this case, plaintext-->
+        <label for="">Your Name: </label><!--Label is used to set labels on the form-->
+        <input type="text" name="yourName" id=""><br><!--Input is used to set inputs on the form -->
+        <label for="">Your Email:</label>
+        <input type="email" name="yourEmail" id=""><br>
+        <label for="">Your Message: </label><br>
+        <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br><!--Textarea is used to put a textarea on the form-->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
